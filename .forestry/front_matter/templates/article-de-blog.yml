@@ -1,4 +1,13 @@
 ---
 label: Article de blog
 hide_body: false
-fields: []
+fields:
+- name: date_de_publication
+  type: datetime
+  label: Date de publication
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
